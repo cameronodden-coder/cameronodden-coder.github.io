@@ -41,3 +41,36 @@ body {
     opacity: 1;
   }
 }
+.demon-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 10px red);
+}
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.background-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: auto;
+  z-index: 0;
+  opacity: 0.2;
+  filter: drop-shadow(0 0 20px red);
+}
+
+.hero h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.buy-button {
+  position: relative;
+  z-index: 1;
+}
+
