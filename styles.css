@@ -45,7 +45,7 @@ header {
 
 .product-card {
   background-color: #1a1a1a;
-  border: 2px solid red;
+  border: 2px solid #f40b48;
   padding: 20px;
   width: 200px;
   text-align: center;
@@ -58,7 +58,7 @@ header {
   font-size: 4rem;
   padding: 40px 0;
   margin-bottom: 15px;
-  border: 1px dashed red;
+  border: 1px dashed #f40b48;
 }
 
 button {
